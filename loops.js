@@ -22,6 +22,7 @@ function forLoop(array) {
     }
     do {
       array.length = array.length - 1;
+      return array.length;
     }
     while (array.length > 0 || maybeTrue() === false);
   }
