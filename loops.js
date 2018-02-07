@@ -22,7 +22,7 @@ function forLoop(array) {
     }
 
     do {
-      return array.length--;
+      console.log(array.length--);
     }
       while (array.length > 0 || maybeTrue() === false);
     }
