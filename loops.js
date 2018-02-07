@@ -17,12 +17,13 @@ function forLoop(array) {
   }
 
   function doWhileLoop(array) {
-    do {
-      function maybeTrue() {
-        return Math.random() >= 0.5;
-      }
-      return array.length--;
-
+    function maybeTrue() {
+      return Math.random() >= 0.5;
     }
-    while (array.length > 0 || maybeTrue() === false);
-  }
+
+    do {
+      return array.length--;
+    }
+      while (array.length > 0 || maybeTrue() === false);
+    }
+
