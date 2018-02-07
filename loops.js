@@ -26,4 +26,3 @@ function forLoop(array) {
     }
       while (array.length > 0 || maybeTrue() === false);
     }
-
