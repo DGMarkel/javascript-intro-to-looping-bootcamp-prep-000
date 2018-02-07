@@ -21,7 +21,7 @@ function forLoop(array) {
       function maybeTrue() {
         return Math.random() >= 0.5;
       }
-      array.length = array.length--;
+      return array.length--;
 
     }
     while (array.length > 0 || maybeTrue() === false);
